@@ -34,3 +34,10 @@ ver.addFile("BSLN303.ck");
 
 // add our example, this will be stored in the package's `_examples` directory.
 ver.addExampleFile("bsln303-help.ck");
+
+
+
+ver.generateVersion("./", "BSLN303", "https://github.com/vlshields/BSLN-303/releases/tag/v1.0.0/BSLN303.zip");
+
+// Generate a version definition json file, stores this in "AwesomeEffect/<VerNo>/version.json"
+ver.generateVersionDefinition("version", "./");
